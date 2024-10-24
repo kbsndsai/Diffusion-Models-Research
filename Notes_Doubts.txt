@@ -1,0 +1,14 @@
+Q1. In diffusion models, the forward process refers to the generation of data by iteratively transforming a noise distribution. The variance schedule plays a crucial role in this process. It determines how the variance (a measure of the spread or uncertainty) of the transformed data changes over time.
+
+The passage mentions that in some cases, the variance schedule is defined as time-dependent constants. This means that the variance values at each step of the diffusion process are predetermined and do not change during training. Instead of learning the variance schedule, specific values or patterns are chosen, such as a linear schedule or a geometric series. These choices are often made based on prior knowledge or experimentation.
+
+The key point emphasized in the passage is that when the variance schedule is fixed, it becomes a constant value with respect to the set of learnable parameters in the model. In other words, the variance schedule does not depend on the adjustable parameters that the model learns during training.
+
+This is beneficial because it allows the model to ignore the variance schedule during the training process. Since the schedule is not influenced by the learnable parameters, the model can focus on optimizing and adjusting other aspects of the diffusion model without needing to explicitly consider the variance schedule. This simplifies the training process and reduces the complexity of the model optimization.
+
+A1. Here it is assumed that the variance is constant but in real time during diffusion process variance is a key factor to embed noise into the datum which during reverse diffusion improves the likelihood of the training data and also improves the model's generalization performance. Even though in the above explanation the variance is considered conatsnt to reduce the complexity and simplifies the training process, shouldn't we also consider variance as it is a key variable? 
+
+Q2. Diffusuion models follow the U-Net model architecture which involves both the encoder and decoder. 
+A2. Why not encapsulate this whole model in the Siamese network to see how similar both the images are (Input Image and the Generated Image)?
+
+Q3. The amount of noise depends on the variance in the diffusion process and durind training (Reverse diffusion process) the model learns to extract the noise and genrerate the final image. But if a new noisy image is given to the model the amount of noise in the model varies with the images used in the training. How to handle this problem.

@@ -1,0 +1,15 @@
+GitHub - lucidrains/denoising-diffusion-pytorch: Implementation of Denoising Diffusion Probabilistic Model in Pytorch
+
+GitHub - mikonvergence/DiffusionFastForward: DiffusionFastForward: a free course and experimental framework for diffusion-based generative models
+
+https://github.com/dtransposed/code_videos/blob/main/Diffusion%20Model.ipynb
+
+https://github.com/huggingface/diffusion-models-class/blob/main/unit1/01_introduction_to_diffusers.ipynb
+
+https://www.youtube.com/watch?v=S_il77Ttrmg&ab_channel=dtransposed
+
+https://www.deeplearning.ai/short-courses/how-diffusion-models-work/
+
+https://www.coursera.org/learn/generative-ai-with-llms?utm_source=gg&utm_medium=sem&utm_campaign=B2C_INDIA_google-data-analytics_FTCOF_professional-certificates_Pmax_arte-non-NRL_within_14D&utm_content=B2C&campaignid=19009631684&adgroupid=&device=c&keyword=&matchtype=&network=x&devicemodel=&adpostion=&creativeid=&hide_mobile_promo&gclid=Cj0KCQjwrMKmBhCJARIsAHuEAPSmvRPlV_f27PAHQC7JZQIgLVb0B52VYl4Jp48U5TEgjuTlL3tK7sIaAt2EEALw_wcB
+
+https://www.coursera.org/specializations/tensorflow-advanced-techniques
